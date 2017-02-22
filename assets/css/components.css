@@ -1,0 +1,113 @@
+/*
+	CSGOForms
+	Components Stylesheet
+	Version: 1.0
+	Author: Forms [github.com/LucasFormiga]
+*/
+
+/* ========== */
+/*    PANEL   */
+/* ========== */
+.panel-default {
+	border: 0;
+	border-radius: 7px 7px 2px 2px;
+}
+
+.panel-default > .panel-heading {
+	background-color: #D32F2F;
+	border-bottom: 3px solid #B71C1C;
+	color: #E0E0E0;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(117, 117, 117, 1);
+	text-align: center;
+	font-weight: bold;
+}
+
+.panel-default > .panel-body {
+	background-color: #26262C;
+	color: #E0E0E0;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* ========== */
+/*   BUTTONS  */
+/* ========== */
+.btn {
+	background: none;
+	padding: 12px 22px;
+	border-width: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-warning:hover,
+.btn-primary:focus,
+.btn-success:focus,
+.btn-danger:focus,
+.btn-warning:focus,
+.btn-primary:active,
+.btn-success:active,
+.btn-danger:active,
+.btn-warning:active
+{
+	background: none;
+}
+
+
+/* ========== */
+/*    MODAL   */
+/* ========== */
+.modal > .modal-dialog > .modal-content {
+	border-radius: 5px 5px 0 0;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-header {
+	background-color: #D32F2F;
+	border-bottom: #B71C1C solid 3px;
+	color: #E0E0E0;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(117, 117, 117, 1);
+	font-weight: bold;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-body {
+	background-color: #1D1C24;
+	color: #E0E0E0;
+	text-transform: uppercase;
+	text-align: justify;
+	padding-top: 15px;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-footer {
+	background-color: #1A1921;
+	border: 0;
+}
+
+
+/* ========== */
+/*    PUBLI   */
+/* ========== */
+.container-publi-area {
+	padding: 0;
+}
+
+.container > .publi-area {
+	width: 100%;
+	height: 110px;
+	min-height: 110px;
+	background-color: #1D1C24;
+	padding: 10px 210px 5px 210px;
+}
+
+.container > .publi-area > .publi {
+	width: 728px;
+	height: 90px;
+	background-color: #1D1C24;
+}
